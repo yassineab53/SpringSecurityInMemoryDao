@@ -53,7 +53,9 @@ public class SecurityConfig {
         });*/
 
                 .formLogin(form -> form
-                        .loginPage("/login")
+                        // Si vous souhaitez utiliser la page par défaut de Spring Security :
+                        //Retirez simplement .loginPage("/login") de votre configuration :
+                        //.loginPage("/login")
                         .defaultSuccessUrl("/user", true)
                         .permitAll()
                 )
