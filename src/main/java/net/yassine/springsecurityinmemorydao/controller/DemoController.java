@@ -10,12 +10,12 @@ public class DemoController {
     public String home() {
         return "Bienvenue sur la page publique !";
     }
-    @GetMapping("/user")
+    /*@GetMapping("/user")
     public String user(){
         return "Bienvenue, utilisateur authentifié !";
-    }
-    @GetMapping("/admin")
+    }*/
+    /*@GetMapping("/admin")
     public String admin() {
         return "Bienvenue, administrateur !";
-    }
+    }*/
 }
