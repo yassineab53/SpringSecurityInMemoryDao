@@ -217,9 +217,9 @@ server.port=8086
 ### 6. Lancer l'Application
 
 Démarrez l'application et accédez aux URLs suivantes :
-- Connexion : [http://localhost:8080/login](http://localhost:8080/login)
-- Accueil Utilisateur : [http://localhost:8080/user](http://localhost:8080/user)
-- Accueil Admin : [http://localhost:8080/admin](http://localhost:8080/admin)
+- Connexion : [http://localhost:8060/login](http://localhost:8086/login)
+- Accueil Utilisateur : [http://localhost:8086/user](http://localhost:8086/user)
+- Accueil Admin : [http://localhost:8086/admin](http://localhost:8086/admin)
 
 ---
 
