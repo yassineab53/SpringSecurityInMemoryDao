@@ -57,6 +57,7 @@ public class SecurityConfig {
                         //Retirez simplement .loginPage("/login") de votre configuration :
                         .loginPage("/login")
                         .defaultSuccessUrl("/user", true)
+                        .defaultSuccessUrl("/admin", true)
                         .permitAll()
                 )
                 .logout(logout -> logout
